@@ -14,7 +14,7 @@ redirect_from:
 
 # Recent Activities
 - September, 2018. Submit two papers to AAAI 2019 and they will be available on arxiv soon.
-- April, 2018. I build one [bridge](https://en.wikipedia.org/wiki/Contract_bridge) reinforcement learning environment based on [Double Dummy Solver](https://github.com/dds-bridge/dds) designed for bidding task in bridge game.
+- April, 2018. I build one [bridge](https://en.wikipedia.org/wiki/Contract_bridge) reinforcement learning [environment](https://github.com/NoListen/bridge_env) based on [Double Dummy Solver](https://github.com/dds-bridge/dds) designed for bidding task in bridge game.
 - March, 2018. Intergrate [rllab](https://github.com/rll/rllab) hierarchical reinforcement learning [gather](https://github.com/rll/rllab/tree/master/rllab/envs/mujoco/gather) and [maze](https://github.com/rll/rllab/tree/master/rllab/envs/mujoco/maze) into openai gym environment.
 - January, 2018. Find a bug in openai baseline [TRPO](https://github.com/openai/baselines/issues/262) implementation.
 - September, 2017. Rewrite the [StarCraft I API](https://github.com/alibaba/gym-starcraft) of Alibaba using TorchCraft v 1.3.0 and extend the [environment](https://github.com/NoListen/gym-starcraft) to include more features. An implementation of [BiCNet](https://arxiv.org/pdf/1703.10069.pdf) on StarCraft I is available in [RL-forest](https://github.com/NoListen/RL-forest/tree/master/RL_forest/ddpg_plant/multi_ddpg).
