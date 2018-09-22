@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2018-09-05-consciousness
 excerpt: '<b>Lisheng Wu</b>, Minne Li, Jun Wang. <i>In submission to AAAI 2019.</i>'
 date: 2018-09-05
-venue: 'AAAI'
+venue: 'Arxiv'
 paperurl: 'TO FILL'
 ---
 

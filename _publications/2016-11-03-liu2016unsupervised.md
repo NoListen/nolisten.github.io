@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/2016-11-03-liu2016unsupervised
 excerpt: 'Lihang Liu, Weiyao Lin, <b>Lisheng Wu</b>, Yong Yu, Michael Ying Yang. <i>Accepted by ECCV Workshop 2016.</i>'
 date: 2016-11-03
-venue: 'ECCV'
+venue: 'ECCV Workshop'
 paperurl: 'https://arxiv.org/pdf/1802.03269.pdf'
 ---
 
