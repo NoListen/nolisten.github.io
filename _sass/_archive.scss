@@ -15,6 +15,7 @@
   }
 
   a {
+    color: inherit;
     text-decoration: none;
   }
 }
@@ -36,7 +37,6 @@
   font-family: $sans-serif-narrow;
 
   a + a {
-    color: #FFA500;
     opacity: 0.5;
   }
 }
