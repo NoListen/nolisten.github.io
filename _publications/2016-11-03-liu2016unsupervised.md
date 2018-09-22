@@ -2,7 +2,7 @@
 title: "Unsupervised deep domain adaptation for pedestrian detection"
 collection: publications
 permalink: /publication/2016-11-03-liu2016unsupervised
-excerpt: 'Lihang Liu, Weiyao Lin, **Lisheng Wu**, Yong Yu, Michael Ying Yang. *Accepted by ECCV Workshop 2016.*'
+excerpt: 'Lihang Liu, Weiyao Lin, <b>Lisheng Wu</b>, Yong Yu, Michael Ying Yang. <i>Accepted by ECCV Workshop 2016.</i>'
 date: 2016-11-03
 venue: 'ECCV'
 paperurl: 'https://arxiv.org/pdf/1802.03269.pdf'

@@ -2,7 +2,7 @@
 title: "Learning Shared Dynamics with Meta-World Models"
 collection: publications
 permalink: /publication/2018-09-05-consciousness
-excerpt: '**Lisheng Wu**, Minne Li, Jun Wang. *In submission to AAAI 2019*.'
+excerpt: '<b>Lisheng Wu</b>, Minne Li, Jun Wang. <i>In submission to AAAI 2019.</i>'
 date: 2018-09-05
 venue: 'AAAI'
 paperurl: 'TO FILL'
