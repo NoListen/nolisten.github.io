@@ -1,14 +1,12 @@
 ---
-title: "Unsupervised deep domain adaptation for pedestrian detection"
+title: "Learning multi-agent implicit communication through actions: a case study in Bridge, a collaborative imperfect information game"
 collection: publications
-permalink: /publication/liu2016unsupervised
-excerpt: 'Lihang Liu, Weiyao Lin, **Lisheng Wu**, Yong Yu, Michael Ying Yang. Accepted by ECCV Workshop 2016.'
-date: 2016-11-03
-venue: 'ECCV'
-paperurl: 'https://arxiv.org/pdf/1802.03269.pdf'
+permalink: /publication/bridge
+excerpt: 'Zhengtian, Shihao Zou, Tim Warr, **Lisheng Wu**, Jun Wang. *In submission to AAAI 2019*.'
+date: 2018-09
+venue: 'AAAI'
+paperurl: 'TO FILL'
 ---
-
-[Arxiv](https://arxiv.org/pdf/1802.03269.pdf)
 
 # Abstract
 
