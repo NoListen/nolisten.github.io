@@ -36,7 +36,7 @@
       </b>
       <br>
     {% if post.excerpt and site.read_more != 'enabled' %}
-      post.excerpt
+      {{ post.excerpt }}
     {% endif %}
     </p>
   </article>
