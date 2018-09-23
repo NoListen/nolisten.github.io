@@ -14,7 +14,11 @@ For example, one pedestrian bend down or turn another direction. Another one can
 In Atari Game, we try to obtain rewards by controlling the agents. Similarly, in tracking problems, we can also consider moving bounding boxes in one specific distance at one direction.
 From this angle, I implemented one tracking demo based on reinforce algorithm. The scenario is that one large bounding box which represents the receptive field aims at keeping the blue target rectangle around its center.
 The code is available in my [DeepWhat](https://github.com/NoListen/DeepWhat/tree/master/rl_tracking) repository.
-[![](https://www.youtube.com/watch?v=pqewVnAjMMw)]
+
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pqewVnAjMMw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+</iframe>
+</div>
 
 There are some more possible extensions.
 For more complex fixed scenarios, we can try to make some simulations in the background environment to help the agents learn to distinguish those background features.
