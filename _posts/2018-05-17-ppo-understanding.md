@@ -1,20 +1,13 @@
 ---
-title: 'Blog Post number 4'
-date: 2015-08-14
-permalink: /posts/2012/08/blog-post-4/
+title: 'PPO in Particle Environment'
+date: 2018-05-17
+permalink: /posts/2018/05/ppo-particle/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - reinforcement learning
+  - ppo
 ---
 
-This is a sample blog post. Lorem ipsum I can't remember the rest of lorem ipsum and don't have an internet connection right now. Testing testing testing this blog post. Blog posts are cool.
+As we know, the reinforcement learning suffers from large variance and doesn't have stable learning signals like supervised learning.
 
-Headings are cool
-======
-
-You can have many headings
-======
-
-Aren't headings cool?
-------
+PPO serves as the basic reinforcement learning algorithm of Open AI. I'd like to interpret PPO in an intuitive ways.
+The PPO equation is $min(r_t(\theta)\hat{A}_t, clip(r_t(\theta), 1-\epsilon, 1+\epsilon)\hat{A}_t)$.
