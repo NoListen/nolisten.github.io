@@ -34,16 +34,16 @@ At every time step, each particle's reward are represented by the negative dista
 
 Though DDPG has shown its capacity to solve this kind of problems, we try to solve them using traditional policy gradients architectures. I implemented it with vanilla policy gradients at first but find two agents go to the same places which are not any landmarks without communications. After analysis, their final places seem to be near the center of three landmarks, which is denoted as one black circle.
 The agents can't learn from differences of different goals because agents with different goals go to nearly the same places. The performance of that one is displayed in the following.
-<p align="center">
+<figure align="center">
   <img src="{{ base_path }}/images/pg_img.gif"/>
   <figcaption>Fig.1 - Vanilla Policy Gradients</figcaption>
-</p>
+</figure>
 
 The agent can't find better learning signals from the data, so it compromises to try to find the center of three landmarks to avoid more severe punishments.
 It appears like a bug in my program. However, when I and my colleague use PPO instead, the particles can reach their goals exactly. The comparison provides one indirect proof that the vanilla policy gradients may meet the tradeoff problems mentioned above.
  The performance of PPO is shown in the following.
-<p align="center">
+<figure align="center">
   <img src="{{ base_path }}/images/ppo_img.gif"/>
   <figcaption>Fig.2 - PPO</figcaption>
-</p>
+</figure>
 
