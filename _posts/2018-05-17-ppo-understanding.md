@@ -17,8 +17,11 @@ If the network changes its parameters, then the memory passed by the RNN can als
 Though this kind of problems can be alleviated by offline learning and large batch size training, how to balance the reinforcement learning data still remains as one problem.
 
 PPO serves as the basic reinforcement learning algorithm of Open AI. I'd like to interpret PPO in an intuitive ways.
-The PPO equation is $L^{CLIP}(\theta)=min(r_t(\theta)\hat{A}_t, clip(r_t(\theta), 1-\epsilon, 1+\epsilon)\hat{A}_t)$. Further information about PPO please refer to the [paper](https://arxiv.org/pdf/1707.06347.pdf).
-Assume $A_t$ is greater than zero, then if we don't clip the ratio $r_t(\theta)$, the optimization target may sacrifice its performance on some other states for better performance on some states. However, those states are causal and can't be treated like the data in supervised learning.
+The PPO equation is
+
+$L^{CLIP}(\theta)=min(r_t(\theta)\hat{A}_t, clip(r_t(\theta), 1-\epsilon, 1+\epsilon)\hat{A}_t)$.
+
+Further information about PPO please refer to the [paper](https://arxiv.org/pdf/1707.06347.pdf).Assume $A_t$ is greater than zero, then if we don't clip the ratio $r_t(\theta)$, the optimization target may sacrifice its performance on some other states for better performance on some states. However, those states are causal and can't be treated like the data in supervised learning.
 For example, if we train using mini-batch and the discount factor is one which means the advantages should be the same ideally, we take the $i_{th}$ and $j_{th}$ entry from this batch. Now if $\pi_{old}(a_i|s_i) = 0.8$ and $\pi_{old}(a_j|s_j) = 0.1$, then $r_i \in (0, 1.25)$ and $r_j \in (0, 10)$.
 Then even though $\pi(a_i|s_i)=0.4$ and $\pi(a_j|s_j)=0.3$ ($r_i + r_j = 3.5$, where $r_i=0.5$ and $r_j=3$.), the loss can improve with respect to the two entries but can lead to totally different trajectory.
 Thus, if we are optimizing them together in off-line manner, a part of data may destroy the learned policy by a large amount.
@@ -35,4 +38,3 @@ The agents can't learn from differences of different goals because agents with d
 
  It looks like there is a bug in my program.
 
- 
