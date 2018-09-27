@@ -2,6 +2,7 @@
 title: 'Tracking like a Game'
 date: 2018-03-03
 permalink: /posts/2018/03/rl-tracing-1/
+excerpt: A new way to think about tracking.
 tags:
   - reinforcement learning
   - tracking
