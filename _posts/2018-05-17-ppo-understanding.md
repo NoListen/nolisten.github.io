@@ -36,7 +36,7 @@ Though DDPG has shown its capacity to solve this kind of problems, we try to sol
 The agents can't learn from differences of different goals because agents with different goals go to nearly the same places. The performance of that one is displayed in the following.
 <p align="center">
   <img src="{{ base_path }}/images/pg_img.gif"/>
-  <figcaption align="center>Fig.1 - Vanilla Policy Gradients</figcaption>
+  <figcaption align="center">Fig.1 - Vanilla Policy Gradients</figcaption>
 </p>
 
 The agent can't find better learning signals from the data, so it compromises to try to find the center of three landmarks to avoid more severe punishments.
