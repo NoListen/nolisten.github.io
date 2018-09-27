@@ -9,14 +9,14 @@ tags:
   - consciousness
 ---
 
-We often consider the features from the appearance. Sometimes, we also try to lean the features correlated to the context, like word embeddings.
+We often consider the features from the appearance. Sometimes, we also try to learn the features correlated to the context, like word embeddings.
  Words with similar properties can share some similarities in the word embedding space. Now, consider reinforcement learning(RL) environment states
  from this aspects. If two world environments hold different state space $\mathcal{S}_1$ and $\mathcal{S}_2$, but with the same action space $\mathcal{A}$ but
  the inner relationships between the states in each world are the same. We call the two worlds have the same dynamics.
 
  For example, you and 'you' in the mirror have the same dynamics but the observations are reverse horizontally.
   However, when you consider the 'you' in the mirror is yourself, you started to consider unify the representations of you and 'you' in the mirror in your mind.
-  I think this phenomenon is very close to the mirror test which shows the existence of self-consciousness.
+  The example may aslo be one illustration of the mirror test which shows the existence of self-consciousness.
 
 To explore the same process using machine learning, we proposed to use the shared dynamics to learn a meta-world model.
 The meta-world model is based on the [world model](https://arxiv.org/pdf/1803.10122.pdf) architectures.
@@ -51,4 +51,5 @@ The reason can be that in the $\Gamma_v$ may represent the paddle in two halves 
   <figcaption align="center">Fig.2 - five world validation</figcaption>
 </p>
 
+In summary, what we only do is let the agent try to find one shared dynamics to associate itself and 'itself' in another world, then it's able to pass the mirror test.
 We also try to train multiple worlds together and improve the success probability of training multiple worlds. As a result, we also find something interesting which may be updated later or delivered in a new post.
