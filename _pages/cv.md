@@ -8,4 +8,9 @@ redirect_from:
 
 {% include base_path %}
 
-[Click here to view my CV]({{ base_path }}/files/lisheng_wu_en_cv.pdf)
+<p align="center">
+  <img src="{{ base_path }}/images/cv.png"/>
+  <figcaption align="center">Fig.1 - five world variants</figcaption>
+</p>
+
+[Click here to download]({{ base_path }}/files/lisheng_wu_en_cv.pdf)
