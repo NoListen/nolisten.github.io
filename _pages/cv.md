@@ -10,7 +10,6 @@ redirect_from:
 
 <p align="center">
   <img src="{{ base_path }}/images/cv.png"/>
-  <figcaption align="center">Fig.1 - five world variants</figcaption>
 </p>
 
 [Click here to download]({{ base_path }}/files/lisheng_wu_en_cv.pdf)
