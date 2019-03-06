@@ -37,7 +37,7 @@ The agents can't learn from differences of different goals because agents with d
 For example, if we train using mini-batch and the discount factor is one which means the advantages should be the same ideally, we take the $i_{th}$ and $j_{th}$ entry from this batch. Now if $\pi_{old}(a_i|s_i) = 0.8$, $\pi_{old}(a_j|s_j) = 0.1$ and $\epsilon = 0.2$.
 Then even though $\pi(a_i|s_i)=0.4$ and $\pi(a_j|s_j)=0.3$ ($r_i + r_j = 3.5$, where $r_i=0.5$ and $r_j=3$.), the loss improve with respect to the two entries but the new policy can lead to totally different trajectory.
 Thus, if we are optimising them together in an off-line manner, a part of data may destroy the academic policy by a significant amount.
-PPO limits this kind of tradeoff by clip the ratio, then in the same case $r_i + r_j$ are clipped to 1.2. The loss comes from $r_j$ doesn't overwhelm $r_i$ with the clipped ratio.
+PPO limits this kind of tradeoff by clip the ratio, then $r_j$ here is clipped to 1.2 while $r_i$ is still 0.5. The loss comes from $r_j$ doesn't overwhelm $r_i$ with the clipped ratio.
 
 I found one interesting phenomenon when I used the platform [multiple_particle_env](https://github.com/openai/multiagent-particle-envs) to do one experiment.
 The simple scenario is that two particles know about their own goals and target at reaching their goals among the three landmarks.
