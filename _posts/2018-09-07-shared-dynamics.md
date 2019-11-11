@@ -19,7 +19,7 @@ We often consider the features from the appearance. Sometimes, we also try to le
 
 To explore the same process using machine learning, we proposed to use the shared dynamics to learn a meta-world model.
 The meta-world model is based on the [world model](https://arxiv.org/pdf/1803.10122.pdf) architectures.
-The world model consists of Vision($\mathcal{V}$) model and Memory(\mathcal{M}) model. We choose the V model as VAE, and the M model as LSTM in our architecture.
+The world model consists of Vision($\mathcal{V}$) model and Memory($\mathcal{M}$) model. We choose the V model as VAE, and the M model as LSTM in our architecture.
 Meta-World aims to learn the shared dynamics among multiple worlds so that one M model is shared across different world environments while each world keeps one individual V model.
  The training loss comes from the reconstruction loss of VAE and the prediction loss of LSTM.
 In correspondence, the training procedure is divided into reconstruction phase $\mathcal{R}$ and prediction phase $\mathcal{P}$.

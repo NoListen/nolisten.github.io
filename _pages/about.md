@@ -14,7 +14,7 @@ redirect_from:
 
 # Recent Activities
 - Novemver, 2019. One [paper](https://arxiv.org/abs/1810.04444) accepted by AAAI 2020.
-- September, 2019. One paper [MVRL](https://arxiv.org/abs/1910.08285) accepted by NIPS 2019.
+- September, 2019. One paper [MVRL](https://arxiv.org/abs/1910.08285) accepted by NeurIPS 2019.
 - November, 2018. Joined Wayve to work on robotics and imitation learning in Cambridge.
 - April, 2018. I build one [bridge](https://en.wikipedia.org/wiki/Contract_bridge) reinforcement learning [environment](https://github.com/NoListen/bridge_env) based on [Double Dummy Solver](https://github.com/dds-bridge/dds) designed for bidding task in bridge game.
 - March, 2018. Intergrate [rllab](https://github.com/rll/rllab) hierarchical reinforcement learning [gather](https://github.com/rll/rllab/tree/master/rllab/envs/mujoco/gather) and [maze](https://github.com/rll/rllab/tree/master/rllab/envs/mujoco/maze) into openai gym environment.
