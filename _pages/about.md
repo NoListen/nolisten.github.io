@@ -13,8 +13,9 @@ redirect_from:
 - My research mainly focuses on reinforcement learning in recent two years and started with computer vision detection and tracking three years ago. I am interested in how to make use of reinforcement learning to learn adaptive learning methods to different domains, make consciousness modeling and robotic control .
 
 # Recent Activities
+- Novemver, 2020. One [paper](https://arxiv.org/abs/1810.04444) accepted by AAAI 2020.
+- September, 2019. One paper [MVRL](https://arxiv.org/abs/1910.08285) accepted by NIPS 2019.
 - November, 2018. Joined Wayve to work on robotics and imitation learning in Cambridge.
-- September, 2018. Submit two papers to AAAI 2019 and they will be available on arxiv soon.
 - April, 2018. I build one [bridge](https://en.wikipedia.org/wiki/Contract_bridge) reinforcement learning [environment](https://github.com/NoListen/bridge_env) based on [Double Dummy Solver](https://github.com/dds-bridge/dds) designed for bidding task in bridge game.
 - March, 2018. Intergrate [rllab](https://github.com/rll/rllab) hierarchical reinforcement learning [gather](https://github.com/rll/rllab/tree/master/rllab/envs/mujoco/gather) and [maze](https://github.com/rll/rllab/tree/master/rllab/envs/mujoco/maze) into openai gym environment.
 - January, 2018. Find a bug in openai baseline [TRPO](https://github.com/openai/baselines/issues/262) implementation.
