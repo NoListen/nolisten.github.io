@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-- I am a MRes student in UCL supervised by [Prof. Jun Wang](http://www0.cs.ucl.ac.uk/staff/Jun.Wang/) and is going to graduate nearly soon.I received my Bachelor’s Degree from Shanghai Jiao Tong University and researched in [Apex Lab](http://apex.sjtu.edu.cn/), where my undergraduate supervisors are [Prof. Yong Yu](http://apex.sjtu.edu.cn/members/yyu) and [Prof. Weinan Zhang](http://wnzhang.net/).
+- I graduated as a MRes student in UCL supervised by [Prof. Jun Wang](http://www0.cs.ucl.ac.uk/staff/Jun.Wang/) in 2018.I received my Bachelor’s Degree from Shanghai Jiao Tong University and researched in [Apex Lab](http://apex.sjtu.edu.cn/), where my undergraduate supervisors are [Prof. Yong Yu](http://apex.sjtu.edu.cn/members/yyu) and [Prof. Weinan Zhang](http://wnzhang.net/).
 
 - My research mainly focuses on reinforcement learning in recent two years and started with computer vision detection and tracking three years ago. I am interested in how to make use of reinforcement learning to learn adaptive learning methods to different domains, make consciousness modeling and robotic control .
 
