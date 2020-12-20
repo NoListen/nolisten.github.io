@@ -8,11 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-- I graduated as a MRes student in UCL supervised by [Prof. Jun Wang](http://www0.cs.ucl.ac.uk/staff/Jun.Wang/) in 2018.I received my Bachelor’s Degree from Shanghai Jiao Tong University and researched in [Apex Lab](http://apex.sjtu.edu.cn/), where my undergraduate supervisors are [Prof. Yong Yu](http://apex.sjtu.edu.cn/members/yyu) and [Prof. Weinan Zhang](http://wnzhang.net/).
+- I'm pursuing my Computer Science PhD in University of Manchester, supervised by [Dr. Ke Chen](http://www.cs.man.ac.uk/~kechen/). Previously, I obtained my Master degree from UCL under the supervison of [Prof. Jun Wang](http://www0.cs.ucl.ac.uk/staff/Jun.Wang/) in 2018. I received my Bachelor’s Degree from Shanghai Jiao Tong University, where my undergraduate supervisors are [Prof. Yong Yu](http://apex.sjtu.edu.cn/members/yyu) and [Prof. Weinan Zhang](http://wnzhang.net/).
 
-- My research mainly focuses on reinforcement learning in recent two years and started with computer vision detection and tracking three years ago. I am interested in how to make use of reinforcement learning to learn adaptive learning methods to different domains, make consciousness modeling and robotic control .
+- My research mainly focuses on representation learning for control now. I am interested in how to make use of reinforcement learning to learn adaptive learning methods to different domains, make consciousness modeling and robotic control .
 
 # Recent Activities
+- September 2020. Started my PhD in University of Manchester.
 - Novemver, 2019. One [paper](https://arxiv.org/abs/1810.04444) accepted by AAAI 2020.
 - September, 2019. One paper [MVRL](https://arxiv.org/abs/1910.08285) accepted by NeurIPS 2019.
 - November, 2018. Joined Wayve to work on robotics and imitation learning in Cambridge.
